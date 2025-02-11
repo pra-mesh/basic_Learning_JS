@@ -17,3 +17,5 @@ JavaScript is a programming language that runs in a web browser to make web page
 | Sass (.sass only)                      | Syler              | Sass only file support                             |
 | Dotenv Official +Vault                 | Dotenv             | Syntax highlighting, auto-cloaking, auto-completion, in-code secret peeking |
 | Color highlight                         | Sergii N           | Highlight webcolor                                  | 
+
+
