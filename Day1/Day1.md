@@ -143,17 +143,31 @@ The object data type can contain:
 
 ### Checking Data Types
  ``` js
-    console.log(typeof "Pramesh") // string
-    console.log(typeof undefined) // undefined
+    let firstName = 'Pramesh';      // string
+    let job; 
+    
+    console.log(typeof "Pramesh"); // string
+    console.log(typeof firstName);
+    console.log(typeof undefined); // undefined
+    console.log(typeof 10);        //number
+    console.log(typeof 3.14);      //number
+    console.log(typeof true);      ///boolean
+    console.log(typeof NaN);       //number
+    console.log(typeof job);       //undefined
+    console.log(typeof undefined)  //undefined
+    console.log(typeof null)        //object
+
 ```
 ##  Type Conversion / Type Coercion
 ``` js
 const value = "12";
 console.log(typeof value)// type Checking
+
+///String to Int and float
 const actualNumber = Number(value);
 const num = +value;
-console.log(actualNumber);
-console.log(typeof actualNumber);
+const usingParse = parseInt(value);
+let numFloat = parseFloat(num);
 
 // Convert number to string
 const num = 13;
